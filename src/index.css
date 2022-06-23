@@ -13,6 +13,10 @@ header{
   margin-bottom: 20px;
 }
 
+.info_columns{
+  padding: 0;
+}
+
 .developer{
   font-weight: 700;
   font-size: x-large;
@@ -59,3 +63,75 @@ header{
     text-align: end;
   }
 }
+
+@media (min-width: 768px) {
+
+  .developer{
+    font-size: xx-large;
+  }
+
+  .title{
+    font-size: x-large;
+  }
+  
+
+  .name, .email{
+    font-size: 30px;
+  }
+
+  .text{
+    font-size: medium;
+  }
+  
+ }
+
+ @media (min-width: 992px) { 
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px !important;
+    margin-bottom: 27px !important;
+  }
+
+  .developer{
+    font-size: 34px;
+  }
+
+  .title{
+    font-size: 20px;
+  }
+  
+  .text{
+    font-size: 15px;
+  }
+  .name, .email{
+    font-size: 40px;
+  }
+  .footer img{
+    max-width: 6%;
+  }
+
+  }
+
+  @media (min-width: 1200px) { 
+
+    .developer{
+      font-size: 51px;
+    }
+  
+    .title{
+      font-size: 28px;
+    }
+    
+    .text{
+      font-size: 18px;
+    }
+    .name, .email{
+      font-size: 40px;
+    }
+
+    .info{
+      margin: 7% 0;
+    }
+   }

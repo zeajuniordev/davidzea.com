@@ -1,0 +1,41 @@
+body{
+    background-color: skyblue;
+}
+
+.nav{
+    margin-top: -2px;
+    padding-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px grey;
+}
+
+.title{
+    margin-right: 390px;
+}
+
+.item{
+    padding-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* background-color: black; */
+    border-radius: 10px;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+button{
+    box-shadow: 0px 2px 5px grey;
+    width: 30%;
+}
+
